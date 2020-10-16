@@ -1,0 +1,36 @@
+body {
+    display:grid;
+    grid-template:
+    "header" 100px
+    "image" 600px
+    "main" auto
+    "contact" 500px
+    "newsletter" 400px 
+    "footer" auto; 
+}
+
+.header {
+    grid-area: header;
+}
+
+.hero-image {
+    grid-area:image;
+    overflow: hidden;
+}
+
+
+.main {
+    grid-area: main;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.newsletter {
+    grid-area:newsletter;
+}
+
+.footer {
+    grid-area:footer;
+}
