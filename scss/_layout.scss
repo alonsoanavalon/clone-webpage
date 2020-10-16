@@ -2,11 +2,9 @@ body {
     display:grid;
     grid-template:
     "header" 100px
-    "image" 600px
+    "image" 40vw
     "main" auto
-    "contact" 500px
-    "newsletter" 400px 
-    "footer" auto; 
+    "footer" 400px; 
 }
 
 .header {
@@ -21,16 +19,11 @@ body {
 
 .main {
     grid-area: main;
+  
 }
 
-.contact {
-    grid-area: contact;
-}
-
-.newsletter {
-    grid-area:newsletter;
-}
 
 .footer {
     grid-area:footer;
 }
+

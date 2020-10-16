@@ -1,10 +1,15 @@
 .ideation {
-   
     width:90%;
     height:auto;
-    padding:5rem;
+    padding:3rem 0 5rem 10rem;
     margin:0 auto;
+   
+    
+    
+ 
 
+ 
+    
     h2 {
         margin-bottom: 2rem;
         font-size: 2rem;
@@ -20,7 +25,7 @@
         display: inline-block;
         font-size: .9rem;
         text-align: left;
-        width:600px;
+        width:50%;
         line-height: 1.2rem;
     }
 }
@@ -28,23 +33,20 @@
 .ideation-cards {
     display: flex;
     flex-flow: row wrap;
-    height:200px;
-
-    justify-content: center;
-    
-  
+    justify-content: flex-start;
+    margin-top:5rem;
     
     
     .ideation-card {
-        margin:1rem;
-        width:300px;
-        height:auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         
-        overflow-wrap: break-word;
+        margin:1rem;
+        width:25%;
+        height:auto;
         
+
         
 
         h5 {
@@ -53,8 +55,8 @@
         }
 
         p {
-            font-size:.8rem;
-            width:100%;
+            font-size:.75rem;
+            width:80%;
             
         }
     
@@ -71,3 +73,166 @@
 
 
 
+/* Game plan */
+
+.game-plan-article {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    padding:8rem 5rem;
+    position: relative;
+   
+    margin:0 auto;
+    justify-content: center;
+   
+    align-items:center;
+    
+
+    
+    
+  
+
+    h2 {
+        align-self: flex-start;
+        position: absolute;
+        left:470px;
+        top:80px;
+        color:rgb(37, 36, 36);
+        font-size: 2.5rem;
+    }
+}
+
+
+
+.game-card {
+    display:flex;
+    flex-flow:column wrap;
+    width:300px;
+    height:auto;
+    margin:2rem 1rem;
+    .game-card-head {
+        padding:2rem;
+        background-color: rgb(51, 145, 109);
+        
+        .card-number {
+            display: inline;
+            font-size: 2rem;;
+            font-weight: bold;
+            color:#fff;
+            border-top:thin solid #fff;
+        }
+
+        p {
+            color:#fff;
+            margin-top:.5rem;
+            font-size: .9rem;
+        }
+    }
+
+
+    .game-card-text {
+        background-color: #fff;
+        padding:2rem;
+
+        h4 {
+            margin-bottom:.5rem;
+            font-weight: normal;
+        }
+
+        p {
+            font-weight: lighter;
+            font-size: .85rem;
+        }
+    }
+}
+
+
+/* Why ideation */
+
+.why {
+    background-color: rgb(195, 230, 223);
+  
+    display: flex;
+    justify-content: center;
+
+    width:100%;
+    height:auto;
+    padding:5rem 0 5rem 7rem;
+    margin:0 auto;
+
+    h2 {
+        font-weight: normal;
+        margin-bottom:1rem;
+    }
+    img {
+        width:30px;
+        height:5px;
+        margin-bottom:1.5rem;
+    }
+
+    h4 {
+        font-weight: normal;
+        margin-bottom:.5rem;
+    }
+
+    p {
+        display: inline-block;
+        font-size: .8rem;
+        line-height: 1.2rem;
+        font-weight: lighter;
+        width:60%;
+        font-family: "open sans";
+    }
+}
+
+.why-cards {
+    display:flex;
+    flex-flow: row wrap;
+    margin:1rem 0;
+
+    .why-card {
+        display: flex;
+        margin:1rem;
+        flex-flow: column nowrap;
+        
+        text-align: justify;
+        img {
+            width:30px;
+            height:30px;
+        }
+        p {
+            width:100%;
+            font-weight: bold;
+            font-size: .8rem;
+            
+        }
+    }
+}
+
+.why-btn {
+    background-color: rgb(51, 145, 109);
+    color:#fff;
+    padding:.5rem 1rem;
+    border-style: none;
+    margin-top:1rem;
+    border-radius:.8rem ;
+    -webkit-border-radius:.8rem ;
+    -moz-border-radius:.8rem ;
+    -ms-border-radius:.8rem ;
+    -o-border-radius:.8rem ;
+}
+
+.why-wrapper {
+    margin:0 auto;
+    width:80%;
+
+}
+
+
+/* Contact */
+
+
+/* Footer */
+
+.footer {
+    background-color: #262626;
+}
