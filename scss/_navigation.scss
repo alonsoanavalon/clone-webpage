@@ -5,8 +5,8 @@
     align-items: center;
     width:100%;
     > img {
-        width:70px;
-        height:auto;
+        width:80px;
+        
         margin:1rem;
     }
 }
@@ -28,7 +28,11 @@
   
 
 
-   
+   #header-link-img {
+       width:70px;
+       height:auto;
+       visibility: hidden;
+   }
 
 
     .header-links__item {
@@ -47,7 +51,7 @@
     #li-contact {
         background-color: green;
         border-style:none;
-        padding:.4rem .7rem;
+        padding:.3rem .7rem .4rem .7rem;
         margin-left:1rem;
         border-radius:.9rem;
         -webkit-border-radius:.9rem;
@@ -64,4 +68,26 @@
     margin:0;
     padding:0;
   
+}
+
+#li-hamburger {
+    position: absolute;
+    right:3rem;
+    visibility: hidden;
+ 
+}
+
+.navigation.is-active {
+    transform:translate(0, 0);
+    visibility:visible;
+
+   
+}
+
+.navigation {
+    transition:transform .9s ease;
+    -webkit-transition:transform .9s ease;
+         -moz-transition:transform .9s ease;
+         -ms-transition:transform .9s ease;
+         -o-transition:transform .9s ease;
 }

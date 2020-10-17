@@ -3,6 +3,8 @@
 @import "hero-image";
 @import "navigation";
 @import "main";
+@import "footer";
+@import "mediaqueries";
 *,
 *::after,
 *::before {
@@ -15,5 +17,9 @@
 img {
     max-width: 100%;
     height:auto;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 

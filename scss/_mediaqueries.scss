@@ -1,0 +1,171 @@
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+  
+    
+
+    .overlay-image {
+
+        h1 {
+            font-size: 1rem;
+        
+        }
+        img {
+            margin:0 0 1rem 0;
+        }
+        h4 {
+            font-size: .9rem;
+        }
+    }
+
+  /*   .hero-image {
+        background-position-y:-8rem;
+    } */
+
+    .ideation {
+        width:90%;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size:1.2rem;
+        }
+
+        p {
+            width:80%;
+            font-size:.8rem;
+        }
+    
+    }
+
+    .ideation-cards {
+        justify-content: center;
+
+        .ideation-card {
+            width:40%;
+        }
+    }
+
+    .game-plan-article {
+        h2 {
+            font-size: 1.7rem;
+        }
+    }
+    
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media screen and  (max-width: 768px) {
+
+    .navigation {
+        visibility:hidden;
+        position:fixed;
+        z-index:998;
+        background-color: #fff;
+        top:0;
+        bottom:0;
+        right: 0;
+        left: 0;
+        transition:transform .9s ease;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        -webkit-transition:transform .9s ease;
+        -moz-transition:transform .9s ease;
+        -ms-transition:transform .9s ease;
+        -o-transition:transform .9s ease;
+    }  
+
+    .navigation {
+        .header-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            .header-links__item {
+                padding:1.2rem 0;
+            }
+
+            #li-contact {
+                margin:1rem 0;
+            }
+
+            a {
+                font-size: .9rem;
+            }
+        }
+    }
+
+   
+  
+     
+    
+
+    #li-hamburger {
+        visibility: visible;
+        right:0;
+        z-index:1000;
+       
+    }
+
+    .header {
+        >img {
+            width:90px;
+            position: absolute;
+            left:1rem;
+        }
+    }
+
+
+
+    .hero-image {
+        background-position-y:-6rem;
+    }
+
+   
+    body {
+        display:grid;
+        grid-template:
+        "header" 100px
+        "image" 60vw
+        "main" auto
+        "footer" auto /
+         minmax(auto, 100%); 
+    }
+
+
+   
+/* 
+    .overlay-image {
+
+        h4 {
+            font-size: 1.7vw;
+        }
+        h1 {
+            font-size: 2.7vw;
+      
+        }
+       
+    } */
+ }
+
+// Large devices (desktops, 992px and up)
+
+@media (max-width: 1200px) {
+
+
+
+  
+
+ 
+
+   
+}
+// Extra large devices (large desktops, 1200px and up)

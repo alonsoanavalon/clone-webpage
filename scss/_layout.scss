@@ -1,10 +1,13 @@
 body {
+    height:100%;
+    width:100%;
     display:grid;
     grid-template:
     "header" 100px
     "image" 40vw
     "main" auto
-    "footer" 400px; 
+    "footer" auto /
+     minmax(auto, 100%); 
 }
 
 .header {
@@ -19,7 +22,7 @@ body {
 
 .main {
     grid-area: main;
-  
+   
 }
 
 
