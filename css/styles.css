@@ -323,7 +323,7 @@ template {
   display: none; }
 
 .hero-image {
-  background-image: url("/pexels-fauxels-3184291.jpg");
+  background-image: url("https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?cs=srgb&dl=pexels-fauxels-3184291.jpg&fm=jpg");
   background-attachment: fixed;
   background-position: center;
   background-origin: border-box;
@@ -410,13 +410,6 @@ template {
 .navigation.is-active {
   transform: translate(0, 0);
   visibility: visible; }
-
-.navigation {
-  transition: transform .9s ease;
-  -webkit-transition: transform .9s ease;
-  -moz-transition: transform .9s ease;
-  -ms-transition: transform .9s ease;
-  -o-transition: transform .9s ease; }
 
 .main__ideation {
   display: flex;
