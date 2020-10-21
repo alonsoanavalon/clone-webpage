@@ -408,8 +408,17 @@ template {
   visibility: hidden; }
 
 .navigation.is-active {
-  transform: translate(0, 0);
-  visibility: visible; }
+  transform: translateX(0);
+  visibility: visible;
+  transition: transform .9s ease;
+  -webkit-transition: transform .9s ease;
+  -moz-transition: transform .9s ease;
+  -ms-transition: transform .9s ease;
+  -o-transition: transform .9s ease;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0); }
 
 .main__ideation {
   display: flex;
@@ -689,7 +698,7 @@ template {
 
   .game-plan-article h2 {
     font-size: 1.7rem; } }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .navigation {
     visibility: hidden;
     position: fixed;
@@ -699,16 +708,16 @@ template {
     bottom: 0;
     right: 0;
     left: 0;
-    transition: transform .9s ease;
+    transition: transform .8s ease;
     transform: translateX(-100%);
     -webkit-transform: translateX(-100%);
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
-    -webkit-transition: transform .9s ease;
-    -moz-transition: transform .9s ease;
-    -ms-transition: transform .9s ease;
-    -o-transition: transform .9s ease; }
+    -webkit-transition: transform .8s ease;
+    -moz-transition: transform .8s ease;
+    -ms-transition: transform .8s ease;
+    -o-transition: transform .8s ease; }
 
   .navigation .header-links {
     display: flex;

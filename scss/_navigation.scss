@@ -78,10 +78,17 @@
 }
 
 .navigation.is-active {
-    transform:translate(0, 0);
+    transform:translateX(0);
     visibility:visible;
-
-   
+    transition: transform .9s ease;
+    -webkit-transition: transform .9s ease;
+    -moz-transition: transform .9s ease;
+    -ms-transition: transform .9s ease;
+    -o-transition: transform .9s ease;
+    -webkit-transform:translateX(0);
+    -moz-transform:translateX(0);
+    -ms-transform:translateX(0);
+    -o-transform:translateX(0);
 }
 
 

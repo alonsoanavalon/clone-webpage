@@ -10,7 +10,7 @@ export default function openMenu (btn, menu, menuLink)  {
         }
 
         if(e.target.matches(menuLink)){
-            console.log("menu tocado")
+        
             d.querySelector(menu).classList.remove("is-active")
             d.querySelector(btn).classList.remove("is-active")
         }
